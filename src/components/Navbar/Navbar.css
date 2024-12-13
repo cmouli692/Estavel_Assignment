@@ -1,0 +1,36 @@
+
+.nav-bar-container{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-items-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0px;
+    width: 175px;
+}
+
+.search-element-cart-and-menu-icon-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.category-text{
+    font-size: 14px;
+
+}
+
+.contact-us-text{
+    font-size: 15px;
+}

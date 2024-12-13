@@ -43,6 +43,8 @@
     
 }
 
+
+
 .footer-email-text-and-email-input-container{
     width: 220px;
     display: flex;
@@ -55,4 +57,41 @@
 
 .footer-copy-right-text-container{
     text-align: center;
+}
+
+@media (min-width:720px) {
+    .logo-email-container{
+        gap: 30px;
+        padding-left: 50px;
+        padding-right: 500px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-email-input-element{
+        width: 300px;
+       
+    }
+
+    .footer-email-text-and-email-input-container{
+        
+        
+    }
+
+    .footer-email-text-and-email-input-container{
+        gap: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .footer-email-text-and-email-input-container{
+        width: 400px;
+    }
+
+    
 }

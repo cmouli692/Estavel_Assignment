@@ -1,5 +1,7 @@
 
-
+html{
+  scroll-behavior: smooth;
+}
 
 .App{
   padding: 10px;
@@ -7,6 +9,7 @@
   /* background-image: url("composition-black-friday-shopping-cart-with-copy-space.jpg"); */
   background-size: cover;
   font-family: "Open Sans";
+ 
 }
 
 .cursor-pointer{

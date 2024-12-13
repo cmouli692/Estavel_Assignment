@@ -5,7 +5,7 @@ import "./DetailsSection.css"
 
 const DetailsSection = () => {
   return (
-    <div className='details-section-card-container'>
+    <div className='details-section-card-container' id='book'>
 
         <div className='details-section-card'>
             <h1>Book Consultation Now</h1>

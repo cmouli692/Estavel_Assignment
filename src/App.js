@@ -1,4 +1,5 @@
-
+import React from 'react';
+import {BrowserRouter as Router,Routes,Route} from "react-router-dom"
 import './App.css';
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
@@ -13,13 +14,15 @@ import WhyShoppingApp from './pages/WhyShoppingApp/WhyShoppingApp';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <HeroSection/>
-      <WhyShoppingApp/>
-      <DetailsSection/>
+      <Navbar />
+     
+       
+      <HeroSection />
+      <WhyShoppingApp />
+      <DetailsSection />
       
       {/* <TransparentContainer/> */}
-      <Footer/>
+      <Footer />
 
     </div>
   );

@@ -1,14 +1,16 @@
 import React from 'react'
+import { MdHome } from "react-icons/md";
 import "./Footer.css"
 
 const Footer = () => {
   return (
-    <div className='footer-container'>
+    <div className='footer-container' id="connectUs">
       <div className='logo-email-container'>
-        <h1>Product</h1>
+        <a href='#home'><MdHome className='navbar-icons'/></a>
         <div className='footer-email-text-and-email-input-container'>
           <p>Email</p>
-          <input type='email' placeholder='Email'/>
+    
+          <input type='email' placeholder='sample@gmail.com' className="footer-email-input-element"/>
         </div>
         
 
